@@ -22,7 +22,6 @@
     "swiper": "^9.4.0",
     "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^2.9.3",
-    "@contentful": "^9.1.28",
     "typed.js": "^2.0.16"
   },
   "devDependencies": {
