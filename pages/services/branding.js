@@ -13,7 +13,7 @@ const Branding = () => {
   return (
     <div className="h-full bg-primary/80 py-36 flex items-center">
       <Circles />
-      <div className="container mx-auto">
+      <div className="scroll-container container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center flex xl:w-[60vw] flex-col lg:text-left mb-4 xl:mb-0">
@@ -22,7 +22,7 @@ const Branding = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className="h2 xl:mt-0 russo-one">
+            className="h2 xl:mt-0 russo-one mt-12">
               Branding<span className="text-accent">.</span>
             </motion.h2>
             <motion.p 
@@ -44,7 +44,6 @@ const Branding = () => {
               Desain &nbsp;
               <BsArrowRight />
             </Link>
-            
           </motion.div>
           </div>
 

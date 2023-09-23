@@ -15,7 +15,7 @@ import { fadeIn } from "../../variants";
 const Contact = () => {
   return (
     <div className="h-full bg-primary/80">
-      <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
+      <div className="scroll-container container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
           <motion.h2 
@@ -23,7 +23,7 @@ const Contact = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className="h2 text-center mb-12 russo-one">
+          className="h2 text-center mb-12 russo-one mt-32">
             <span className="text-accent">Contact</span> Me.
           </motion.h2>
           {/* form */}
@@ -44,7 +44,7 @@ const Contact = () => {
             href="mailto:khuzen.ard@gmail.com"
             className="btn rounded-full border max-w-[170px] py-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
               <span className="group-hover:-tranlate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Let&apos;s Talk
+                Let&apos;s Talk 
               </span>
               <BsArrowRight className="-trasnlate-y-[120%] opacity-0 group-hover:flex group-hover:-traslate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]" />
             </a>

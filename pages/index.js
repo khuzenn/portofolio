@@ -20,14 +20,14 @@ const Home = () => {
     <div className="bg-primary/80 h-full">
       {/* text */}
       <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-        <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto'>
+        <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full scroll-container container mx-auto'>
           {/* title */}
           <motion.h1 
           variants={fadeIn('down', 0.2)}
           initial= 'hidden'
           animate= 'show'
           exit= 'hidden'
-          className="h2 russo-one">
+          className="h2 russo-one mt-8">
             Hi There! <br/> I&apos;m Khuzen <br/>
             <Typed 
             strings= {['Web Developer','Web Desainer']}
@@ -43,7 +43,7 @@ const Home = () => {
           initial= 'hidden'
           animate= 'show'
           exit= 'hidden'
-          className='max-w-sm xl-:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-white'>
+          className='max-w-sm xl-:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-2 text-white'>
             I&apos;m currently a Full-stack developer seeking many ways to impove my skills through problem solving and creating various project.<br/> Scroll down to learn more about me.
           </motion.p>
           {/* Project Button */}

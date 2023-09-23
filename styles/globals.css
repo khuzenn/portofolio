@@ -57,3 +57,8 @@
 .russo-one {
   font-family: russo-one;
 }
+
+.scroll-container {
+  max-height: 700px; /* Ganti dengan tinggi maksimal yang Anda inginkan */
+  overflow: auto;
+}

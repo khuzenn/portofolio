@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, ScrollView } from "react";
 import { BsArrowRight } from "react-icons/bs";
 
 // icons
@@ -101,7 +101,7 @@ const About = () => {
       className="hidden xl:flex absolute top-13 -left-[380px]">
         <Avatar />
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="scroll-container container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
         <motion.div 
         variants= {fadeIn('down', 0.2)}

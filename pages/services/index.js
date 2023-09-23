@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div className="h-full bg-primary/80 py-36 flex items-center">
       <Circles />
-      <div className="container mx-auto">
+      <div className="scroll-container container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
           {/* text */}
           <div className="text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0">
@@ -20,7 +20,7 @@ const Services = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className="h2 xl:mt-8 russo-one">
+            className="h2 xl:mt-8 russo-one mt-10">
               <span className="text-accent">My</span> Services
             </motion.h2>
             <motion.p 
