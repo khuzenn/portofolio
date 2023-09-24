@@ -59,6 +59,6 @@
 }
 
 .scroll-container {
-  max-height: 700px; /* Ganti dengan tinggi maksimal yang Anda inginkan */
+  max-height: 6900px; /* Ganti dengan tinggi maksimal yang Anda inginkan */
   overflow: auto;
 }

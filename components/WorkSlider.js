@@ -10,7 +10,7 @@ import 'swiper/css/free-mode';
 import "swiper/css/pagination";
 
 // icons
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsGithub } from "react-icons/bs";
 
 // image
 import Image from "next/image";
@@ -24,18 +24,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/prjct1.png',
+          href: "https://github.com/khuzenn/tugas-akhir.git",
         },
         {
           title: 'title',
           path: '/prjct-2.png',
+          href: "https://github.com/khuzenn/react-native-vapebuilder.git",
         },
         {
           title: 'title',
           path: '/prjct-4.png',
+          href: "https://github.com/khuzenn/portofolio.git",
         },
         {
           title: 'title',
           path: '/prjct-3.png',
+          href: "https://www.figma.com/file/9bw5698ynuUfEuOlkGfLef/Untitled?type=design&mode=design&t=8Ga8FGMzyetmv8Yv-1",
         },
       ],
     },
@@ -44,18 +48,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/prjct-2.png',
+          href: "https://github.com/khuzenn/portofolio.git",
         },
         {
           title: 'title',
           path: '/prjct1.png',
+          href: "https://github.com/khuzenn/portofolio.git",
         },
         {
           title: 'title',
           path: '/prjct-3.png',
+          href: "https://github.com/khuzenn/portofolio.git",
         },
         {
           title: 'title',
           path: '/prjct-4.png',
+          href: "https://github.com/khuzenn/portofolio.git",
         },
       ],
     },
@@ -88,7 +96,8 @@ const WorkSlider = () => {
                       {/* overlay gradient */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#F6C90E] to-[#303841] opacity-0 group-hover:opacity-80 tranition-all duration-700">
                         <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
-                          <div className="flex items-center ml-16 gap-x-2 text-[13px] text-black russo-one">
+                          <Link href={images.href} target="_blank" rel="noopener noreferrer">
+                          <div className="flex items-center ml-6 gap-x-2 text-[13px] text-black russo-one">
                             {/* title 1 */}
                             <div className="delay-100">Live</div>
                             {/* title 2 */}
@@ -100,6 +109,8 @@ const WorkSlider = () => {
                               <BsArrowRight />
                             </div>
                           </div>
+                          </Link>
+                          
                         </div>
                       </div>
                     </div>

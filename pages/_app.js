@@ -20,7 +20,6 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
-      
     </Layout>
   );
 }
