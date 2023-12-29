@@ -34,7 +34,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/prjct-4.png',
-          href: "https://github.com/khuzenn/portofolio.git",
+          href: "https://github.com/khuzenn/noumena-id.git",
         },
         {
           title: 'title',
